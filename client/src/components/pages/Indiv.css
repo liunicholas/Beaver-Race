@@ -1,0 +1,147 @@
+.Indiv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Indiv-preMatchTimer {
+    font-size: 64px;
+    padding: 10px;
+    margin-top: 200px;
+    background-color: var(--primary);
+    color: var(--text);
+    border-radius: 10px;
+}
+
+.Indiv-headline-text {
+    border-radius: 20px;
+    background-color: var(--primary);
+    color: var(--text);
+    margin: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 720px;
+}
+
+.Indiv-round-finished-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    font-size: 52px;
+    /* margin-top: 100px; */
+    /* margin-bottom: 10px; */
+    background-color: var(--primary);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: var(--text);
+    padding-top: 10px;
+}
+
+.Indiv-play-again-button {
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 15px;
+    font-size: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.Indiv-start-play-button {
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 15px;
+    font-size: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.Indiv-round-start-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    font-size: 52px;
+    /* margin-top: 100px; */
+    margin-bottom: 20px;
+    background-color: var(--primary);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: var(--text);
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Indiv-leaderboard {
+    /* margin-top: -5px; */
+    border-radius: 20px;
+    background-color: var(--primary);
+    color: var(--text);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Indiv-beaver-image {
+    width: 100px;
+    height: auto;
+}
+
+.Indiv-beaver-river {
+    background-color: var(--primary);
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+.Indiv-beaver-bar {
+    background-color: var(--primary--dim);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Indiv-highlighted-log {
+    background-color: var(--secondary);
+    border-radius: 20px;
+}
+
+.Indiv-log-image {
+    width: 100px;
+    height: auto;
+}
+
+.Indiv-return-page {
+    background-color: var(--secondary);
+    color: var(--button--text);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 24px;
+}

@@ -1,0 +1,162 @@
+.OtherGames-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax values as needed */
+    row-gap: 30px;
+    column-gap: 80px;
+    padding-top: 20px;
+    max-width: 80%; /* Maximum width of the grid container */
+    margin: auto; /* Center the container horizontally */
+    padding-bottom: 50px;
+    background-color: transparent;
+}
+
+.OtherGames-grid-item {
+    position: relative; /* Allows absolute positioning inside */
+    background-color: #333; /* Dark background for the tile */
+    border-radius: 10px; /* Rounded corners for the tile */
+    overflow: hidden; /* Ensures the image fits within the tile */
+    /* width: 300px;
+    height: 200px; */
+    width: 120%;
+    height: 200px;
+    margin: auto;
+}
+
+.OtherGames-grid-item img {
+    width: 100%;
+    height: 100%; /* Makes the image cover the entire area of the tile */
+    object-fit: cover; /* Ensures the image covers the tile area without stretching */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.OtherGames-grid-item:hover img {
+    transform: scale(1.1); /* Scales up the image on hover */
+}
+
+.OtherGames-tile-name {
+    position: absolute;
+    top: 50%; /* Adjust this value to move the banner up */
+    left: 0;
+    width: 100%; /* Banner width */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent banner for readability */
+    color: white;
+    text-align: center;
+    padding: 5px 0; /* Padding for the banner */
+    font-size: 2em;
+}
+
+.OtherGames-headline-container {
+    width: 60%;
+    margin: 0 auto;
+    /* background-color: var(--primary); */
+    color: var(--text);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 15px;
+}
+
+.OtherGames-headline-text {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.OtherGames-sub-text {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.OtherGames-search-bar {
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: box-shadow 0.3s;
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text */
+}
+  
+.OtherGames-search-bar:focus {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    outline: 0;
+}
+
+.OtherGames-input::placeholder, textarea::placeholder {
+    font-family: 'IBM Plex Sans', sans-serif; /* Replace 'Your Font' with the name of your font */
+    font-size: 16px; /* Adjust the size as needed */
+    color: #999; /* Adjust the color as needed */
+}
+
+.OtherGames-loading {
+    position: fixed;
+    z-index: 9999;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid var(--secondary);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.OtherGames-star {
+    position: absolute;
+    top: -15%;
+    left: 88%;
+    height: 50%;
+    color: #FFD700;
+    z-index: 1;
+    font-size: 30px;
+}
+
+.OtherGames-background {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    /* overflow: scroll; */
+    height: 100%;
+}
+
+.OtherGames-typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1.5s steps(30, end),
+        blink-caret 0s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 65%
+    }
+}

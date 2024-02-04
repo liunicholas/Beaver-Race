@@ -1,0 +1,114 @@
+.NavBar-container {
+    padding: var(--s) var(--m);
+    background-color: var(--primary);
+    font-family: "IBM Plex Sans";
+}
+
+.NavBar-title-beaver {
+    color: var(--text);
+    font-size: 30px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.NavBar-title-race {
+    color: var(--text);
+    font-size: 30px;
+    margin-right: 20px;
+    background-color: var(--secondary);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    color: var(--button--text);
+    font-weight: bold;
+}
+
+.NavBar-linkContainer {
+    margin-left: 20px;
+}
+
+.NavBar-link,
+.NavBar-link:visited {
+    color: var(--text);
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.NavBar-link:hover {
+    opacity: 0.8;
+}
+
+.NavBar-link.NavBar-login {
+    opacity: 1;
+}
+
+.NavBar-link + .NavBar-link {
+    margin-left: var(--m);
+}
+
+.NavBar-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.NavBar-auth-button {
+    float: right;
+}
+
+.NavBar-sign-in-button {
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 8px;
+    font-size: 20px;
+}
+
+.NavBar-sign-in-popup {
+    width: 20%;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: var(--primary--dim);
+    color: var(--text);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.NavBar-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.NavBar-align-top {
+    vertical-align: top;
+}
+
+.NavBar-button {
+    background-color: transparent;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    padding: var(--s) var(--s);
+    cursor: pointer;
+    vertical-align: bottom;
+    font-size: 20px;
+    font-family: "IBM Plex Sans";
+    margin-right: 15px;
+}
+
+.NavBar-game-code {
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 8px;
+    width: 150px;
+    margin-right: 15px;
+}

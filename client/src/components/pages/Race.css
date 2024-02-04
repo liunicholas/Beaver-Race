@@ -1,0 +1,203 @@
+.Race-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Race-login-prompt {
+    border-radius: 20px;
+    background-color: var(--primary);
+    color: var(--text);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text);
+}
+
+.Race-header {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--text);
+}
+
+/* .Race-headline-text {
+    border-radius: 20px;
+    background-color: var(--primary);
+    color: var(--text);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text);
+} */
+
+.Race-headline-text {
+    border-radius: 20px;
+    background-color: var(--primary);
+    color: var(--text);
+    margin: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 720px;
+}
+
+.Race-beaver-image {
+    width: 50px;
+    height: auto;
+}
+
+.Race-beaver-river {
+    background-color: var(--primary);
+    border-radius: 20px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    /* margin: 20px; */
+    height: auto;
+    width: 730px;
+}
+
+.Race-beaver-bar {
+    background-color: var(--primary--dim);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+    /* height: 150px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Race-log-image {
+    width: 50px;
+    height: auto;
+}
+
+.Race-username {
+    color: var(--text);
+    text-align: center;
+    font-size: 14px;
+}
+
+.Race-position-text {
+    color: var(--text);
+    text-align: center;
+    font-size: 14px;
+}
+
+.Race-start-button {
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 10px;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.Race-preround-timer {
+    color: var(--text);
+    text-align: center;
+    font-size: 128px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.Race-leaderboard {
+    border-radius: 20px;
+    background-color: var(--primary);
+    color: var(--text);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Race-finished-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    font-size: 52px;
+    margin-top: 20px;
+    background-color: var(--primary);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: var(--text);
+    padding: 20px;
+}
+
+.Race-play-again-button {
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 15px;
+    font-size: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10px;
+}
+
+.Race-waiting-for-host {
+    border-radius: 20px;
+    background-color: var(--primary);
+    color: var(--text);
+    margin: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 720px;
+}
+
+.Race-return-page {
+    background-color: var(--secondary);
+    color: var(--button--text);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.Race-key-presses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: 800px;
+    margin: 0 auto;
+    color: var(--text);
+}
+
+.Race-background {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    /* overflow: scroll; */
+    height: 100%;
+}

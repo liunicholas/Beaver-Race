@@ -1,0 +1,12 @@
+.RoundEndScoreboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    /* margin-top: 200px; */
+    background-color: var(--primary);
+    color: var(--text);
+    border-radius: 20px;
+}

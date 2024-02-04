@@ -1,0 +1,209 @@
+.Home-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Home-fade-div {
+    background-color: var(--primary--dim);
+    color: var(--text);
+    animation: fadeinout 2s linear;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 9999;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.Home-fade-image {
+    animation: fadeinout 2s linear;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px;
+    height: auto;
+}
+
+@keyframes fadeinout {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.Home-headline-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom: 0px;
+}
+
+.Home-subheadline-text {
+    font-size: 20px;
+    color: var(--text);
+    margin-top: 0px;
+}
+
+.Home-main-rounded-div {
+    border-radius: 20px;
+    background-color: var(--primary);
+    color: var(--text);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Home-button {
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 10px;
+}
+
+.Home-username-button {
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 8px;
+    margin-top: -10px;
+}
+
+.Home-username-text {
+    font-weight: bold;
+}
+
+.Home-white-placeholder::placeholder {
+    color: var(--button--text);
+}
+
+.Home-sign-in {
+    padding: 20px;
+}
+
+.Home-multiplayer-random {
+    padding: 20px;
+    position: relative;
+}
+
+.Home-multiplayer-random-image {
+    position: absolute;
+    top: 20%;
+    left: 78%;
+    height: 90%;
+}
+
+.Home-two-divs {
+    display: flex;
+    margin-bottom: -20px;
+}
+
+.Home-individual {
+    flex: 1;
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding: 20px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.Home-individual-image {
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 75%;
+    height: 45%;
+}
+
+.Home-multiplayer-party {
+    flex: 1;
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding: 20px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.Home-multiplayer-party-image {
+    position: absolute;
+    border-radius: 10px;
+    top: 45%;
+    left: 72%;
+    height: 50%;
+}
+
+.Home-align-right {
+    float: right;
+}
+
+.Home-mathing-race-button {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.Home-practice-yourself-button {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.Home-create-party-button {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.Home-leaderboard {
+    padding: 10px;
+}
+
+.Home-party-sign-in {
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.Home-round-code {
+    margin-left: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--button--text);
+    padding: 10px;
+    width: 150px;
+}
+
+.Home-background {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    /* overflow: scroll; */
+    height: 100%;
+}
+
+.Home-typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(40, end),
+        blink-caret 0s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {width: 0}
+    to {width: 40%}
+}
